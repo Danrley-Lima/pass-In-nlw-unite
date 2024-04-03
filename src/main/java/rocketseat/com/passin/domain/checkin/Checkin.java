@@ -29,7 +29,7 @@ public class Checkin {
   private Integer id;
 
   @Column(nullable = false, name = "created_at")
-  private LocalDateTime checkedAt;
+  private LocalDateTime createdAt;
 
   @OneToOne
   @JoinColumn(name = "attendee_id", nullable = false)
