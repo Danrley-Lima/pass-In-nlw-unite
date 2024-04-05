@@ -1,0 +1,234 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2024-04-05T21:59:35.022Z",
+  "__export_source": "insomnia.desktop.app:v0.2.3-a",
+  "resources": [
+    {
+      "_id": "req_de2ef9d8e52f4baa90d6f8326e1f3652",
+      "parentId": "wrk_056293f4b56049df936c3717a3b8deb8",
+      "modified": 1712352502709,
+      "created": 1712104121926,
+      "url": "{{ _.baseUrl }}/api/events/2c59baa0-f369-4d21-86bd-9b9b217ed12f",
+      "name": "getEvent",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnium/0.2.3-a"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1712104057945,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "segmentParams": [],
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_056293f4b56049df936c3717a3b8deb8",
+      "parentId": null,
+      "modified": 1712104053217,
+      "created": 1712104053217,
+      "name": "Rocketseat Unite - Java",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_c1b075feb70a4d489435701f67a029b1",
+      "parentId": "wrk_056293f4b56049df936c3717a3b8deb8",
+      "modified": 1712353721388,
+      "created": 1712353589016,
+      "url": "{{ _.baseUrl }}/api/attendees/c1ba1d65-67f7-4169-baa1-826b915db379/check-in",
+      "name": "check in",
+      "description": "",
+      "method": "POST",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnium/0.2.3-a"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1712104057932.5,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "segmentParams": [],
+      "_type": "request"
+    },
+    {
+      "_id": "req_01d29c0d79e54c03a393adacbfac835e",
+      "parentId": "wrk_056293f4b56049df936c3717a3b8deb8",
+      "modified": 1712354333431,
+      "created": 1712352394570,
+      "url": "{{ _.baseUrl }}/api/attendees/c1ba1d25-67f7-4169-baa1-826b915db379/badge",
+      "name": "checkBadge",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnium/0.2.3-a"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1712104057920,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "segmentParams": [],
+      "_type": "request"
+    },
+    {
+      "_id": "req_dea63e05ae36412fa9d1798cefd8ca5c",
+      "parentId": "wrk_056293f4b56049df936c3717a3b8deb8",
+      "modified": 1712107513448,
+      "created": 1712107417401,
+      "url": "{{ _.baseUrl }}/api/events/attendees/9556a177-d255-4190-9197-b5cb174db62e",
+      "name": "getEventAttendees",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnium/0.2.3-a"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1712104057895,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "segmentParams": [],
+      "_type": "request"
+    },
+    {
+      "_id": "req_2ad047c25a6349d4beb4e9f730a71636",
+      "parentId": "wrk_056293f4b56049df936c3717a3b8deb8",
+      "modified": 1712352456204,
+      "created": 1712104057845,
+      "url": "{{ _.baseUrl }}/api/events",
+      "name": "createEvent",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"title\": \"Rocketseaat Unite 2.0\",\n\t\"details\": \"blablabasasdlabla\",\n\t\"maximumAttendees\": 1\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnium/0.2.3-a"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1712104057845,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "segmentParams": [],
+      "_type": "request"
+    },
+    {
+      "_id": "req_95f87437f1f6419b858af130b579f6ca",
+      "parentId": "wrk_056293f4b56049df936c3717a3b8deb8",
+      "modified": 1712352519234,
+      "created": 1712348821451,
+      "url": "{{ _.baseUrl }}/api/events/2c59baa0-f369-4d21-86bd-9b9b217ed12f/attendees",
+      "name": "createParticipant",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\": \"Danrley\",\n\t\"email\": \"teste1@gmail.com\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnium/0.2.3-a"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1711892072130.5,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "segmentParams": [],
+      "_type": "request"
+    },
+    {
+      "_id": "env_1e85e62351fce123e656f5e9c8f64cb1dbabdc51",
+      "parentId": "wrk_056293f4b56049df936c3717a3b8deb8",
+      "modified": 1712104099490,
+      "created": 1712104053220,
+      "name": "Base Environment",
+      "data": {
+        "baseUrl": "localhost:8080"
+      },
+      "dataPropertyOrder": {
+        "&": [
+          "baseUrl"
+        ]
+      },
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1712104053220,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_1e85e62351fce123e656f5e9c8f64cb1dbabdc51",
+      "parentId": "wrk_056293f4b56049df936c3717a3b8deb8",
+      "modified": 1712104053222,
+      "created": 1712104053222,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    }
+  ]
+}

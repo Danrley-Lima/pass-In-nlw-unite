@@ -1,4 +1,4 @@
-package rocketseat.com.passin.dto.Event;
+package rocketseat.com.passin.dto.event;
 
 public record EventRequestDTO(String title, String details, Integer maximumAttendees) {
 
